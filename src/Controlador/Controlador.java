@@ -37,7 +37,7 @@ public class Controlador implements ActionListener{
  modelo.multiplicar();
  vista.multiplicar.setText(String.valueOf(modelo.getResultado()));      
          
- 
+ System.out.print("MUY BIEN");
  
  }
     
